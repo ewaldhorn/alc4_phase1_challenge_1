@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ALC4_Phase_1_Challenge_1_Ewald_Horn</string>
+    <string name="button_one_text">About ALC</string>
+    <string name="button_two_text">My Profile</string>
 </resources>
