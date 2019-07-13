@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">ALC4_Phase_1_Challenge_1_Ewald_Horn</string>
+    <string name="app_name">ALC4 Challenge 1 Ewald Horn</string>
+    <string name="activity_a_welcome">Welcome to ALC 4.0</string>
+    <string name="activity_a_challenge">Challenge 1 - Phase 1</string>
+    <string name="button_one_text">About ALC</string>
+    <string name="button_two_text">My Profile</string>
+    <string name="error_ssl_certificate_invalid">An invalid SSL certificate was encountered, proceed?</string>
+    <string name="text_continue">Continue</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_back">Back</string>
 </resources>
