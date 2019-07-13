@@ -2,18 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="za.co.nofuss.alc4_phase_1_challenge_1_ewald_horn">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme">
-        <activity android:name=".ActivityC">
+            android:theme="@style/AppTheme" android:fullBackupContent="@xml/backup_descriptor">
+        <activity android:name=".ActivityC"
+                  android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".ActivityB">
+        <activity android:name=".ActivityB"
+                  android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ActivityA"
+                  android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
