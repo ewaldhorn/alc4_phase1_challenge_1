@@ -8,4 +8,11 @@
     <string name="text_continue">Continue</string>
     <string name="text_cancel">Cancel</string>
     <string name="text_back">Back</string>
+    <string name="content_description">Android Logo</string>
+    <string name="my_name">Ewald Horn</string>
+    <string name="slack_username_ewald">Slack Username: @ewald</string>
+    <string name="phone_number_021_555_0014">Phone Number: 021 555 0014</string>
+    <string name="email_ewaldhorn_gmail_com">Email: ewaldhorn@gmail.com</string>
+    <string name="country_south_africa">Country: South Africa</string>
+    <string name="track_android">Track: Android</string>
 </resources>

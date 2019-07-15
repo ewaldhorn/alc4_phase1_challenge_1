@@ -1,3 +1,5 @@
 <resources>
     <dimen name="activity_top_margin">60dp</dimen>
+    <dimen name="main_button_padding">30dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
 </resources>

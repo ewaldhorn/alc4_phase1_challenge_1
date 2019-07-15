@@ -21,7 +21,8 @@
                   android:textSize="24sp" android:textStyle="bold"/>
     </LinearLayout>
     <LinearLayout
-            android:orientation="horizontal"
+            android:orientation="vertical"
+            android:gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,18 +32,25 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/linearLayout">
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/linearLayout">
         <Button
                 android:text="@string/button_one_text"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/colorOrange"
+                android:padding="@dimen/button_padding"
                 android:id="@+id/button_one"
+                android:layout_marginBottom="@dimen/main_button_padding"
                 android:layout_weight="1"/>
         <Button
                 android:text="@string/button_two_text"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/colorOrange"
+                android:padding="@dimen/button_padding"
                 android:id="@+id/button_two"
+                android:layout_marginBottom="@dimen/main_button_padding"
                 android:layout_weight="1"/>
     </LinearLayout>
     <LinearLayout
